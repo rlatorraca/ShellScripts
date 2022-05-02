@@ -1,0 +1,27 @@
+a) Declaracoes de variaveis
+
+NOME_VARIAVEL="VALOR" [sempre STRING] ,por causa das Aspas
+NOME_VARIAVEL=15 [NUMERICO / STRING]
+
+Para operacoes matematicas: $(( X + Y ))
+ - Cifrao + 2 paranteses
+
+Para Comandos: $(comando)
+ - Cifrao + 1 paranteses
+
+b) FOR (varre todos os itens da lista)
+
+Fruta=("Laranja", "Limao)
+
+for i in Fruta
+    echo $i
+done
+
+c) Variaveis reservadas
+
+$1 : pega o Primeiro parametro dogotadp no console
+$2 : pega o Segundo parametro digitado no console
+$3 : pega o Terceiro parametro digitado no console
+ ** Assim sucessivamente
+
+$* : pega TODOS os parametros digitados no console
